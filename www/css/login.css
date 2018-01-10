@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'cheyongwirl';
+    src: url('font/OpenSansCondensed-Light.eot'), url('font/OpenSansCondensed-Light.ttf') format('truetype'), url('font/OpenSansCondensed-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+
+
+
+body{
+	margin: 0 auto;
+	font-family: 'cheyongwirl';
+    background-color: rgb(238,255,240);
+}
+.logincontainer{
+	width: 40%;
+	margin:0 auto;
+	color:green;
+}
+.logincontainer .loginbox{
+	margin-top: 100px;
+}
+input[type=text]{width: 100%;height: 40px;}
+input[type=password]{width: 100%;height: 40px;}
+br {
+	margin-top: 2px;
+}
